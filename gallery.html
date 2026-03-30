@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | Hopebridge Foundation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300..700&family=Inter:wght@300;400;500;600;700&family=Pirata+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="img/fav/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="img/fav/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="img/fav/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="img/fav/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/fav/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="img/fav/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="img/fav/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="img/fav/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/fav/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="img/fav/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="img/fav/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/fav/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="img/logo.png"
+              alt="Hopebridge Logo"
+              class="logo"
+              title="Hopebridge"
+            />
+          </a>
+          <div class="nav-menu">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="volunteer.html" class="nav-link">Volunteer</a>
+            <a href="donate.html" class="nav-link">Donate</a>
+            <a href="blog.html" class="nav-link">Blog</a>
+            <a href="gallery.html" class="nav-link active">Gallery</a>
+            <a href="resources.html" class="nav-link">Resources</a>
+          </div>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="hero-content">
+          <img src="img/sli3.jpeg" alt="Hopebridge Gallery" class="hero-image">
+          <div class="hero-overlay">
+            <div class="hero-text">
+              <h1>Hopebridge Gallery</h1>
+              <p>Visual stories of our humanitarian impact and community transformation across Uganda</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <div class="page-header-content">
+          <h1>Our Impact Gallery</h1>
+          <p>See our humanitarian work in action through powerful images and videos</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Gallery Introduction -->
+      <section class="gallery-intro">
+        <div class="container">
+          <div class="intro-content animate-fadeInUp">
+            <h2>Capturing Moments of Impact</h2>
+            <p>
+              Through these images, we share the stories of hope, resilience, and community 
+              that define our work. Each photograph represents a life touched, a community 
+              strengthened, and a bridge of hope built. Join us in celebrating the journey 
+              of transformation and the incredible people who make it possible.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Filters -->
+      <section class="gallery-filters">
+        <div class="container">
+          <div class="filter-buttons animate-fadeInUp">
+            <button class="filter-btn active" data-filter="all">All Photos</button>
+            <button class="filter-btn" data-filter="education">Education</button>
+            <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+            <button class="filter-btn" data-filter="community">Community</button>
+            <button class="filter-btn" data-filter="volunteers">Volunteers</button>
+            <button class="filter-btn" data-filter="events">Events</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main Gallery Grid -->
+      <section class="gallery-grid">
+        <div class="container">
+          <div class="gallery-items">
+            <!-- Slide Images -->
+            <div class="gallery-item animate-fadeInUp" data-category="community">
+              <div class="gallery-content">
+                <img src="img/sli1.jpeg" alt="Community building activities" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Building Community Together</h4>
+                    <p>Community members working hand in hand to create lasting change</p>
+                    <span class="gallery-category">Community</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="volunteers">
+              <div class="gallery-content">
+                <img src="img/sli2.jpeg" alt="Volunteers in action" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Dedicated Volunteers</h4>
+                    <p>Our amazing volunteers making a difference in the community</p>
+                    <span class="gallery-category">Volunteers</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="education">
+              <div class="gallery-content">
+                <img src="img/sli3.jpeg" alt="Education programs" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Education in Action</h4>
+                    <p>Students engaged in learning and skill development programs</p>
+                    <span class="gallery-category">Education</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="healthcare">
+              <div class="gallery-content">
+                <img src="img/sli4.jpeg" alt="Healthcare services" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Healthcare Support</h4>
+                    <p>Providing essential health services to community members</p>
+                    <span class="gallery-category">Healthcare</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="events">
+              <div class="gallery-content">
+                <img src="img/sli5.jpeg" alt="Community events" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Community Celebrations</h4>
+                    <p>Joyful moments during community events and celebrations</p>
+                    <span class="gallery-category">Events</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Portrait Images -->
+            <div class="gallery-item animate-fadeInUp" data-category="volunteers">
+              <div class="gallery-content">
+                <img src="img/potrait1.jpeg" alt="Team member portrait" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Leadership Team</h4>
+                    <p>Meet the dedicated leaders behind our mission</p>
+                    <span class="gallery-category">Volunteers</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="community">
+              <div class="gallery-content">
+                <img src="img/potrait2.jpeg" alt="Community leader" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Community Champions</h4>
+                    <p>Local leaders driving positive change in their neighborhoods</p>
+                    <span class="gallery-category">Community</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="education">
+              <div class="gallery-content">
+                <img src="img/potrait3.jpeg" alt="Education coordinator" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Education Champions</h4>
+                    <p>Dedicated educators transforming lives through knowledge</p>
+                    <span class="gallery-category">Education</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="healthcare">
+              <div class="gallery-content">
+                <img src="img/potrait4.jpeg" alt="Healthcare worker" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Healthcare Heroes</h4>
+                    <p>Medical professionals serving the community with compassion</p>
+                    <span class="gallery-category">Healthcare</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="volunteers">
+              <div class="gallery-content">
+                <img src="img/potrait5.jpeg" alt="Volunteer portrait" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Volunteer Spotlight</h4>
+                    <p>Amazing individuals giving their time and skills</p>
+                    <span class="gallery-category">Volunteers</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="community">
+              <div class="gallery-content">
+                <img src="img/potrait6.jpeg" alt="Community member" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Community Stories</h4>
+                    <p>Real people, real impact, real transformation</p>
+                    <span class="gallery-category">Community</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Resource Images -->
+            <div class="gallery-item animate-fadeInUp" data-category="events">
+              <div class="gallery-content">
+                <img src="img/resources/0517a4db-d2dc-458b-b316-89b89256d1ed.jpeg" alt="Event celebration" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Success Celebration</h4>
+                    <p>Celebrating milestones and achievements together</p>
+                    <span class="gallery-category">Events</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="education">
+              <div class="gallery-content">
+                <img src="img/resources/08d1784f-257f-44d3-82c8-e9f9ef64d04b.jpeg" alt="Learning session" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Learning Together</h4>
+                    <p>Interactive learning sessions for all ages</p>
+                    <span class="gallery-category">Education</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="healthcare">
+              <div class="gallery-content">
+                <img src="img/resources/1b2e328b-efff-479b-9468-aeb66cd9c9fc.jpeg" alt="Health screening" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Health Screening</h4>
+                    <p>Regular health check-ups for community wellness</p>
+                    <span class="gallery-category">Healthcare</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="community">
+              <div class="gallery-content">
+                <img src="img/resources/2.jpeg" alt="Community gathering" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Community Gathering</h4>
+                    <p>Bringing people together for shared goals</p>
+                    <span class="gallery-category">Community</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="volunteers">
+              <div class="gallery-content">
+                <img src="img/resources/8a26872e-0c9c-4c87-9589-7dca7d072b46.jpeg" alt="Volunteer team" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Team Spirit</h4>
+                    <p>Our volunteer team working together</p>
+                    <span class="gallery-category">Volunteers</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="events">
+              <div class="gallery-content">
+                <img src="img/resources/91d5cdc3-b811-4a06-bb20-e3c98f963507.jpeg" alt="Community event" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Community Event</h4>
+                    <p>Celebrating our shared achievements</p>
+                    <span class="gallery-category">Events</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="education">
+              <div class="gallery-content">
+                <img src="img/resources/ac1bac05-3e98-40bb-92f3-ea2a745646e7.jpeg" alt="Training workshop" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Skills Training</h4>
+                    <p>Practical skills development workshops</p>
+                    <span class="gallery-category">Education</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="healthcare">
+              <div class="gallery-content">
+                <img src="img/resources/b2d6056f-180f-4623-b1a8-ea3c31bddc65.jpeg" alt="Medical consultation" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Medical Consultation</h4>
+                    <p>Professional healthcare consultations</p>
+                    <span class="gallery-category">Healthcare</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="community">
+              <div class="gallery-content">
+                <img src="img/resources/bcbae608-9419-4103-af04-991aa538ebfa.jpeg" alt="Community project" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Community Project</h4>
+                    <p>Working together on community improvements</p>
+                    <span class="gallery-category">Community</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="volunteers">
+              <div class="gallery-content">
+                <img src="img/resources/dc2be8e0-5780-4b3f-b906-b261ff56b4b1.jpeg" alt="Volunteer activity" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Volunteer Activity</h4>
+                    <p>Hands-on volunteer work making a difference</p>
+                    <span class="gallery-category">Volunteers</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="gallery-item animate-fadeInUp" data-category="events">
+              <div class="gallery-content">
+                <img src="img/resources/logo.png" alt="Hopebridge logo" />
+                <div class="gallery-overlay">
+                  <div class="gallery-info">
+                    <h4>Our Identity</h4>
+                    <p>The Hopebridge Foundation logo representing our mission</p>
+                    <span class="gallery-category">Events</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Stats -->
+      <section class="gallery-stats">
+        <div class="container">
+          <div class="section-header animate-fadeInUp">
+            <h2>Our Visual Story</h2>
+            <p>Numbers that represent our journey captured in images</p>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="stat-card animate-fadeInUp">
+                <div class="stat-icon">
+                  <i class="fas fa-camera"></i>
+                </div>
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Photos Captured</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="stat-card animate-fadeInUp">
+                <div class="stat-icon">
+                  <i class="fas fa-calendar"></i>
+                </div>
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Events Documented</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="stat-card animate-fadeInUp">
+                <div class="stat-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="stat-number">1,000+</div>
+                <div class="stat-label">Faces of Hope</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="stat-card animate-fadeInUp">
+                <div class="stat-icon">
+                  <i class="fas fa-heart"></i>
+                </div>
+                <div class="stat-number">∞</div>
+                <div class="stat-label">Stories Told</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Gallery -->
+      <section class="video-gallery">
+        <div class="container">
+          <div class="section-header animate-fadeInUp">
+            <h2>Video Stories</h2>
+            <p>Watch our impact in motion through these compelling videos</p>
+          </div>
+          <div class="video-grid">
+            <div class="video-item animate-fadeInUp">
+              <div class="video-wrapper">
+                <video controls poster="img/sli1.jpeg">
+                  <source src="img/WhatsApp Video 2026-03-19 at 1.20.43 AM.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <div class="video-overlay">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+              </div>
+              <h4>Community Building in Action</h4>
+              <p>See our volunteers and community members working together</p>
+            </div>
+            <div class="video-item animate-fadeInUp">
+              <div class="video-wrapper">
+                <video controls poster="img/sli2.jpeg">
+                  <source src="img/WhatsApp Video 2026-03-19 at 1.35.58 AM.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <div class="video-overlay">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+              </div>
+              <h4>Education Programs</h4>
+              <p>Watch our learning programs in action</p>
+            </div>
+            <div class="video-item animate-fadeInUp">
+              <div class="video-wrapper">
+                <video controls poster="img/sli3.jpeg">
+                  <source src="img/WhatsApp Video 2026-03-19 at 12.57.26 AM.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <div class="video-overlay">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+              </div>
+              <h4>Healthcare Support</h4>
+              <p>Our healthcare initiatives making a difference</p>
+            </div>
+            <div class="video-item animate-fadeInUp">
+              <div class="video-wrapper">
+                <video controls poster="img/sli4.jpeg">
+                  <source src="img/WhatsApp Video 2026-03-19 at 12.57.27 AM (1).mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <div class="video-overlay">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+              </div>
+              <h4>Youth Development</h4>
+              <p>Empowering young people through our programs</p>
+            </div>
+            <div class="video-item animate-fadeInUp">
+              <div class="video-wrapper">
+                <video controls poster="img/sli5.jpeg">
+                  <source src="img/WhatsApp Video 2026-03-19 at 12.57.27 AM (2).mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <div class="video-overlay">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+              </div>
+              <h4>Community Celebrations</h4>
+              <p>Joyful moments from our community events</p>
+            </div>
+            <div class="video-item animate-fadeInUp">
+              <div class="video-wrapper">
+                <video controls poster="img/resources/91d5cdc3-b811-4a06-bb20-e3c98f963507.jpeg">
+                  <source src="img/WhatsApp Video 2026-03-19 at 12.57.27 AM (2).mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <div class="video-overlay">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+              </div>
+              <h4>Success Stories</h4>
+              <p>Real stories of transformation and hope</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="cta-section">
+        <div class="container">
+          <div class="cta-content animate-fadeInUp">
+            <h2>Share Your Story</h2>
+            <p>Have photos or videos from Hopebridge events? Share them with us and help tell our story of hope and transformation.</p>
+            <div class="cta-buttons">
+              <a href="contact.html" class="cta-button primary hover-lift">Share Your Photos</a>
+              <a href="volunteer.html" class="cta-button secondary hover-lift">Join Our Story</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-about">
+              <img src="img/logo.png" alt="Hopebridge Logo" class="footer-logo" />
+              <p>Building bridges of hope across communities through compassion, support, and sustainable development.</p>
+              <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-links">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-contact">
+              <h3>Contact Us</h3>
+              <p><i class="fas fa-map-marker-alt"></i> 123 Hope Street, Community City</p>
+              <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+              <p><i class="fas fa-envelope"></i> info@hopebridge.org</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Hopebridge Foundation. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

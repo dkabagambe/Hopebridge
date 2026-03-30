@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Hopebridge Foundation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300..700&family=Inter:wght@300;400;500;600;700&family=Pirata+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="img/fav/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="img/fav/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="img/fav/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="img/fav/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/fav/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="img/fav/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="img/fav/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="img/fav/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/fav/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="img/fav/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="img/fav/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/fav/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="img/logo.png"
+              alt="Hopebridge Logo"
+              class="logo"
+              title="Hopebridge"
+            />
+          </a>
+          <div class="nav-menu">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="contact.html" class="nav-link active">Contact</a>
+            <a href="volunteer.html" class="nav-link">Volunteer</a>
+            <a href="donate.html" class="nav-link">Donate</a>
+            <a href="blog.html" class="nav-link">Blog</a>
+            <a href="gallery.html" class="nav-link">Gallery</a>
+            <a href="resources.html" class="nav-link">Resources</a>
+          </div>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="hero-content">
+          <img src="img/sli5.jpeg" alt="Contact Hopebridge" class="hero-image">
+          <div class="hero-overlay">
+            <div class="hero-text">
+              <h1>Contact Hopebridge Foundation</h1>
+              <p>Get in touch for emergency assistance, partnerships, or humanitarian inquiries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <div class="page-header-content">
+          <h1>Get in Touch</h1>
+          <p>Reach out to our team for support, partnerships, or urgent assistance</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Contact Introduction -->
+      <section class="contact-intro">
+        <div class="container">
+          <div class="intro-content animate-fadeInUp">
+            <h2>We're Here to Help</h2>
+            <p>
+              Whether you need assistance, want to volunteer, have questions about our programs, 
+              or are interested in partnering with us, we're here to listen and help. Your message 
+              matters to us, and we'll respond as quickly as possible.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="contact-form animate-fadeInUp">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm">
+                  <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" />
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <select id="subject" name="subject" required>
+                      <option value="">Select a topic</option>
+                      <option value="general">General Inquiry</option>
+                      <option value="services">Request Services</option>
+                      <option value="volunteer">Volunteer Information</option>
+                      <option value="donation">Donation Questions</option>
+                      <option value="partnership">Partnership Opportunities</option>
+                      <option value="media">Media Inquiry</option>
+                      <option value="feedback">Feedback</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label class="checkbox-label">
+                      <input type="checkbox" id="newsletter" name="newsletter" />
+                      <span class="checkmark"></span>
+                      I'd like to receive updates about Hopebridge Foundation's work
+                    </label>
+                  </div>
+                  <button type="submit" class="submit-btn hover-lift">Send Message</button>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="contact-info animate-slideInRight">
+                <h3>Get in Touch</h3>
+                
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h4>Office Address</h4>
+                    <p>123 Hope Street<br>Community City, CC 12345<br>United States</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h4>Phone Numbers</h4>
+                    <p>Main Office: +1 (555) 123-4567<br>Emergency Line: +1 (555) 987-6543<br>Toll-Free: 1-800-HOPE-BR</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h4>Email Addresses</h4>
+                    <p>General: info@hopebridge.org<br>Services: services@hopebridge.org<br>Volunteers: volunteers@hopebridge.org</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fas fa-clock"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h4>Office Hours</h4>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed<br>Emergency services available 24/7</p>
+                  </div>
+                </div>
+
+                <div class="social-contact">
+                  <h4>Connect With Us</h4>
+                  <div class="social-links">
+                    <a href="#" class="social-link" title="Facebook">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Twitter">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" title="Instagram">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link" title="YouTube">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq-section">
+        <div class="container">
+          <div class="section-header animate-fadeInUp">
+            <h2>Frequently Asked Questions</h2>
+            <p>Quick answers to common questions about Hopebridge Foundation</p>
+          </div>
+          <div class="faq-container">
+            <div class="faq-item animate-fadeInUp">
+              <div class="faq-question">
+                <h4>How can I get help from Hopebridge Foundation?</h4>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  You can reach out to us through the contact form above, call our main office, 
+                  or visit us in person. Our team will assess your needs and connect you with 
+                  the appropriate services. We serve all community members regardless of background 
+                  or circumstances.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item animate-fadeInUp">
+              <div class="faq-question">
+                <h4>What services do you offer?</h4>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  We offer comprehensive services including education programs, healthcare support, 
+                  community development, emergency response, and youth development. Each program 
+                  is designed to address specific community needs while promoting long-term 
+                  sustainability and empowerment.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item animate-fadeInUp">
+              <div class="faq-question">
+                <h4>How can I volunteer with Hopebridge?</h4>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  We welcome volunteers with various skills and time commitments. Visit our 
+                  volunteer page or contact our volunteer coordinator at volunteers@hopebridge.org 
+                  to learn about current opportunities. We offer both one-time and ongoing 
+                  volunteer positions.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item animate-fadeInUp">
+              <div class="faq-question">
+                <h4>How are donations used?</h4>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  85% of all donations go directly to program services, with 10% for administrative 
+                  costs and 5% for fundraising. We maintain full transparency in our financial 
+                  reporting and can provide detailed information about how specific donations 
+                  support our work.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item animate-fadeInUp">
+              <div class="faq-question">
+                <h4>Do you partner with other organizations?</h4>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Yes, we actively seek partnerships with other nonprofits, businesses, government 
+                  agencies, and community groups. If you're interested in partnering with us, 
+                  please select "Partnership Opportunities" when contacting us, and our development 
+                  team will get in touch.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Map Section -->
+      <section class="map-section">
+        <div class="container">
+          <div class="section-header animate-fadeInUp">
+            <h2>Find Us</h2>
+            <p>Visit our main office or connect with us in your community</p>
+          </div>
+          <div class="map-container animate-fadeInUp">
+            <div class="map-placeholder">
+              <div class="map-content">
+                <i class="fas fa-map-marked-alt"></i>
+                <h4>Interactive Map</h4>
+                <p>Our main office and service locations</p>
+                <p>123 Hope Street, Community City, CC 12345</p>
+                <a href="#" class="map-link">Get Directions</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Response Time Info -->
+      <section class="response-info">
+        <div class="container">
+          <div class="response-content animate-fadeInUp">
+            <h3>Our Response Times</h3>
+            <div class="response-grid">
+              <div class="response-item">
+                <div class="response-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="response-details">
+                  <h4>Email Inquiries</h4>
+                  <p>Within 24-48 hours</p>
+                </div>
+              </div>
+              <div class="response-item">
+                <div class="response-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="response-details">
+                  <h4>Phone Calls</h4>
+                  <p>Immediate during business hours</p>
+                </div>
+              </div>
+              <div class="response-item">
+                <div class="response-icon">
+                  <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="response-details">
+                  <h4>Emergency Requests</h4>
+                  <p>Immediate response available 24/7</p>
+                </div>
+              </div>
+              <div class="response-item">
+                <div class="response-icon">
+                  <i class="fas fa-hands-helping"></i>
+                </div>
+                <div class="response-details">
+                  <h4>Service Requests</h4>
+                  <p>Assessment within 3-5 business days</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Information -->
+      <section class="contact-info">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="contact-card animate-fadeInUp">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3>Visit Us</h3>
+                <p>Kampala, Uganda</p>
+                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="contact-card animate-fadeInUp">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <h3>Call Us</h3>
+                <p>+256 702 516 065</p>
+                <p>24/7 Emergency Hotline</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="contact-card animate-fadeInUp">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <h3>Email Us</h3>
+                <p>info@hopebridgeug.org</p>
+                <p>Response within 24 hours</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="cta-section">
+        <div class="container">
+          <div class="cta-content animate-fadeInUp">
+            <h2>Stay Connected</h2>
+            <p>Follow our journey and be the first to know about our programs, events, and impact stories.</p>
+            <div class="cta-buttons">
+              <a href="newsletter.html" class="cta-button primary hover-lift">Subscribe to Newsletter</a>
+              <a href="social.html" class="cta-button secondary hover-lift">Follow Us on Social Media</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-about">
+              <img src="img/logo.png" alt="Hopebridge Logo" class="footer-logo" />
+              <p>Building bridges of hope across communities through compassion, support, and sustainable development.</p>
+              <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-links">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-contact">
+              <h3>Contact Us</h3>
+              <p><i class="fas fa-map-marker-alt"></i> Kampala, Uganda</p>
+              <p><i class="fas fa-phone"></i> +256 702 516 065</p>
+              <p><i class="fas fa-envelope"></i> info@hopebridgeug.org</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Hopebridge Foundation. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-float">
+      <a href="https://wa.me/256702516065" target="_blank" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+        <span>Chat with Us</span>
+      </a>
+    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

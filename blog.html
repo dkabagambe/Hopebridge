@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Hopebridge Foundation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300..700&family=Inter:wght@300;400;500;600;700&family=Pirata+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="img/fav/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="img/fav/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="img/fav/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="img/fav/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/fav/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="img/fav/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="img/fav/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="img/fav/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/fav/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="img/fav/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="img/fav/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/fav/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="img/logo.png"
+              alt="Hopebridge Logo"
+              class="logo"
+              title="Hopebridge"
+            />
+          </a>
+          <div class="nav-menu">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="volunteer.html" class="nav-link">Volunteer</a>
+            <a href="donate.html" class="nav-link">Donate</a>
+            <a href="blog.html" class="nav-link active">Blog</a>
+            <a href="gallery.html" class="nav-link">Gallery</a>
+            <a href="resources.html" class="nav-link">Resources</a>
+          </div>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="hero-content">
+          <img src="img/sli4.jpeg" alt="Hopebridge Blog" class="hero-image">
+          <div class="hero-overlay">
+            <div class="hero-text">
+              <h1>Hopebridge Blog</h1>
+              <p>Stories, insights, and updates from our humanitarian work across Uganda</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <div class="page-header-content">
+          <h1>Latest Stories</h1>
+          <p>Updates from our humanitarian missions and community impact across Uganda</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Blog Introduction -->
+      <section class="blog-intro">
+        <div class="container">
+          <div class="intro-content animate-fadeInUp">
+            <h2>Stories That Inspire</h2>
+            <p>
+              Welcome to the Hopebridge blog, where we share powerful stories of transformation, 
+              insights from our work, and updates on how your support is making a real difference. 
+              These are the faces and voices behind the bridges of hope we build together.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Categories -->
+      <section class="blog-categories">
+        <div class="container">
+          <div class="category-filters animate-fadeInUp">
+            <button class="filter-btn active" data-filter="all">All Posts</button>
+            <button class="filter-btn" data-filter="impact">Impact Stories</button>
+            <button class="filter-btn" data-filter="volunteers">Volunteer Spotlight</button>
+            <button class="filter-btn" data-filter="programs">Program Updates</button>
+            <button class="filter-btn" data-filter="community">Community News</button>
+            <button class="filter-btn" data-filter="behind">Behind the Scenes</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Post -->
+      <section class="featured-post">
+        <div class="container">
+          <div class="featured-content animate-fadeInUp">
+            <div class="featured-image">
+              <img src="img/sli1.jpeg" alt="Featured blog post">
+              <div class="featured-badge">Featured Story</div>
+            </div>
+            <div class="featured-text">
+              <div class="post-meta">
+                <span class="category">Impact Stories</span>
+                <span class="date">March 15, 2026</span>
+                <span class="read-time">8 min read</span>
+              </div>
+              <h2>Building Bridges: How One Community Transformed Through Unity</h2>
+              <p>
+                Discover the inspiring story of how residents in the Eastside neighborhood 
+                came together with Hopebridge Foundation to create lasting change. From abandoned 
+                lots to community gardens, from isolation to connection – this is the story of 
+                what happens when hope becomes action.
+              </p>
+              <div class="post-author">
+                <img src="img/potrait2.jpeg" alt="Author">
+                <div class="author-info">
+                  <span class="author-name">Sarah Johnson</span>
+                  <span class="author-title">Executive Director</span>
+                </div>
+              </div>
+              <a href="#" class="read-more-btn">Read Full Story</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Posts Grid -->
+      <section class="blog-posts">
+        <div class="container">
+          <div class="posts-grid">
+            <!-- Post 1 -->
+            <article class="blog-post animate-fadeInUp" data-category="impact">
+              <div class="post-image">
+                <img src="img/sli2.jpeg" alt="Blog post image">
+              </div>
+              <div class="post-content">
+                <div class="post-meta">
+                  <span class="category">Impact Stories</span>
+                  <span class="date">March 10, 2026</span>
+                  <span class="read-time">5 min read</span>
+                </div>
+                <h3>From Student to Teacher: Maria's Journey of Giving Back</h3>
+                <p>
+                  Meet Maria, a former scholarship recipient who's now teaching in our 
+                  after-school program, inspiring the next generation of learners.
+                </p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </article>
+
+            <!-- Post 2 -->
+            <article class="blog-post animate-fadeInUp" data-category="volunteers">
+              <div class="post-image">
+                <img src="img/sli3.jpeg" alt="Blog post image">
+              </div>
+              <div class="post-content">
+                <div class="post-meta">
+                  <span class="category">Volunteer Spotlight</span>
+                  <span class="date">March 8, 2026</span>
+                  <span class="read-time">6 min read</span>
+                </div>
+                <h3>The Power of 500: Our Volunteer Community in Numbers</h3>
+                <p>
+                  We reached an incredible milestone this month – 500 active volunteers! 
+                  Here's what this amazing community has accomplished together.
+                </p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </article>
+
+            <!-- Post 3 -->
+            <article class="blog-post animate-fadeInUp" data-category="programs">
+              <div class="post-image">
+                <img src="img/sli4.jpeg" alt="Blog post image">
+              </div>
+              <div class="post-content">
+                <div class="post-meta">
+                  <span class="category">Program Updates</span>
+                  <span class="date">March 5, 2026</span>
+                  <span class="read-time">4 min read</span>
+                </div>
+                <h3>New Healthcare Initiative Reaches 1,000 Community Members</h3>
+                <p>
+                  Our mobile health clinics have provided essential care to over 1,000 
+                  residents in underserved areas. Here's how we're making healthcare accessible.
+                </p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </article>
+
+            <!-- Post 4 -->
+            <article class="blog-post animate-fadeInUp" data-category="community">
+              <div class="post-image">
+                <img src="img/sli5.jpeg" alt="Blog post image">
+              </div>
+              <div class="post-content">
+                <div class="post-meta">
+                  <span class="category">Community News</span>
+                  <span class="date">March 1, 2026</span>
+                  <span class="read-time">7 min read</span>
+                </div>
+                <h3>Spring Festival Brings Hope and Joy to 500 Families</h3>
+                <p>
+                  Our annual Spring Festival was our biggest yet, bringing together families, 
+                  volunteers, and community partners for a day of celebration and connection.
+                </p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </article>
+
+            <!-- Post 5 -->
+            <article class="blog-post animate-fadeInUp" data-category="behind">
+              <div class="post-image">
+                <img src="img/potrait1.jpeg" alt="Blog post image">
+              </div>
+              <div class="post-content">
+                <div class="post-meta">
+                  <span class="category">Behind the Scenes</span>
+                  <span class="date">February 28, 2026</span>
+                  <span class="read-time">5 min read</span>
+                </div>
+                <h3>A Day in the Life: Our Program Directors Share Their Stories</h3>
+                <p>
+                  Go behind the scenes with our program directors as they share what a 
+                  typical day looks like and what drives their passion for service.
+                </p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </article>
+
+            <!-- Post 6 -->
+            <article class="blog-post animate-fadeInUp" data-category="impact">
+              <div class="post-image">
+                <img src="img/potrait3.jpeg" alt="Blog post image">
+              </div>
+              <div class="post-content">
+                <div class="post-meta">
+                  <span class="category">Impact Stories</span>
+                  <span class="date">February 25, 2026</span>
+                  <span class="read-time">6 min read</span>
+                </div>
+                <h3>Breaking Barriers: How Technology is Transforming Education</h3>
+                <p>
+                  Our new digital learning initiative is helping bridge the digital divide 
+                  and prepare students for the future of work and learning.
+                </p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </article>
+
+            <!-- Post 7 -->
+            <article class="blog-post animate-fadeInUp" data-category="volunteers">
+              <div class="post-image">
+                <img src="img/potrait4.jpeg" alt="Blog post image">
+              </div>
+              <div class="post-content">
+                <div class="post-meta">
+                  <span class="category">Volunteer Spotlight</span>
+                  <span class="date">February 22, 2026</span>
+                  <span class="read-time">4 min read</span>
+                </div>
+                <h3>Corporate Partnerships: How Businesses Are Making a Difference</h3>
+                <p>
+                  Meet the companies and their employees who are using their skills and 
+                  resources to support our mission and strengthen communities.
+                </p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </article>
+
+            <!-- Post 8 -->
+            <article class="blog-post animate-fadeInUp" data-category="programs">
+              <div class="post-image">
+                <img src="img/potrait5.jpeg" alt="Blog post image">
+              </div>
+              <div class="post-content">
+                <div class="post-meta">
+                  <span class="category">Program Updates</span>
+                  <span class="date">February 20, 2026</span>
+                  <span class="read-time">5 min read</span>
+                </div>
+                <h3>Youth Leadership Program Graduates 50 Future Leaders</h3>
+                <p>
+                  Celebrate with us as 50 young people complete our youth leadership 
+                  program, ready to make positive change in their communities.
+                </p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </article>
+
+            <!-- Post 9 -->
+            <article class="blog-post animate-fadeInUp" data-category="community">
+              <div class="post-image">
+                <img src="img/potrait6.jpeg" alt="Blog post image">
+              </div>
+              <div class="post-content">
+                <div class="post-meta">
+                  <span class="category">Community News</span>
+                  <span class="date">February 18, 2026</span>
+                  <span class="read-time">6 min read</span>
+                </div>
+                <h3>Community Garden Project Harvests Hope and Fresh Food</h3>
+                <p>
+                  Our community garden project not only provides fresh produce but also 
+                  brings neighbors together and teaches valuable skills.
+                </p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter Signup -->
+      <section class="blog-newsletter">
+        <div class="container">
+          <div class="newsletter-content animate-fadeInUp">
+            <h3>Stay Connected</h3>
+            <p>
+              Get the latest stories and updates delivered directly to your inbox. 
+              Join our community of hope and inspiration.
+            </p>
+            <form class="newsletter-form">
+              <div class="form-row">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit" class="subscribe-btn">Subscribe</button>
+              </div>
+            </form>
+            <p class="newsletter-note">We respect your privacy and will never share your email.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Categories Overview -->
+      <section class="blog-categories-overview">
+        <div class="container">
+          <div class="section-header animate-fadeInUp">
+            <h2>Explore by Category</h2>
+            <p>Dive deeper into topics that matter to you</p>
+          </div>
+          <div class="categories-grid">
+            <div class="category-card animate-fadeInUp hover-lift">
+              <div class="category-icon">
+                <i class="fas fa-heart"></i>
+              </div>
+              <h4>Impact Stories</h4>
+              <p>Real stories of transformation and lives changed through our programs</p>
+              <span class="post-count">12 Posts</span>
+            </div>
+            <div class="category-card animate-fadeInUp hover-lift">
+              <div class="category-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <h4>Volunteer Spotlight</h4>
+              <p>Meet the amazing people who dedicate their time to building bridges of hope</p>
+              <span class="post-count">8 Posts</span>
+            </div>
+            <div class="category-card animate-fadeInUp hover-lift">
+              <div class="category-icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <h4>Program Updates</h4>
+              <p>Latest news and developments in our programs and services</p>
+              <span class="post-count">15 Posts</span>
+            </div>
+            <div class="category-card animate-fadeInUp hover-lift">
+              <div class="category-icon">
+                <i class="fas fa-newspaper"></i>
+              </div>
+              <h4>Community News</h4>
+              <p>Events, announcements, and news from our community partners</p>
+              <span class="post-count">10 Posts</span>
+            </div>
+            <div class="category-card animate-fadeInUp hover-lift">
+              <div class="category-icon">
+                <i class="fas fa-eye"></i>
+              </div>
+              <h4>Behind the Scenes</h4>
+              <p>Go behind the scenes to see how we make our work happen</p>
+              <span class="post-count">6 Posts</span>
+            </div>
+            <div class="category-card animate-fadeInUp hover-lift">
+              <div class="category-icon">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h4>Tips & Resources</h4>
+              <p>Helpful advice and resources for community members and supporters</p>
+              <span class="post-count">9 Posts</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Load More -->
+      <section class="load-more-section">
+        <div class="container">
+          <div class="load-more-content animate-fadeInUp">
+            <button class="load-more-btn hover-lift">Load More Stories</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="cta-section">
+        <div class="container">
+          <div class="cta-content animate-fadeInUp">
+            <h2>Share Your Story</h2>
+            <p>Have a story about how Hopebridge has impacted your life? We'd love to hear it and share it with our community.</p>
+            <div class="cta-buttons">
+              <a href="contact.html" class="cta-button primary hover-lift">Share Your Story</a>
+              <a href="donate.html" class="cta-button secondary hover-lift">Support Our Work</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-about">
+              <img src="img/logo.png" alt="Hopebridge Logo" class="footer-logo" />
+              <p>Building bridges of hope across communities through compassion, support, and sustainable development.</p>
+              <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-links">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-contact">
+              <h3>Contact Us</h3>
+              <p><i class="fas fa-map-marker-alt"></i> 123 Hope Street, Community City</p>
+              <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+              <p><i class="fas fa-envelope"></i> info@hopebridge.org</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Hopebridge Foundation. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
