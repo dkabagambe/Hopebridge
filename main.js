@@ -1,10 +1,11 @@
 // Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize Swiper
+    // Initialize Swiper with Ken Burns + crossfade
     const swiper = new Swiper('.swiper-container', {
         loop: true,
+        speed: 1200,
         autoplay: {
-            delay: 5000,
+            delay: 5500,
             disableOnInteraction: false,
         },
         pagination: {
@@ -18,6 +19,17 @@ document.addEventListener('DOMContentLoaded', function() {
         effect: 'fade',
         fadeEffect: {
             crossFade: true
+        },
+        on: {
+            slideChangeTransitionStart: function () {
+                // Reset zoom on non-active slides
+                this.slides.forEach((slide, i) => {
+                    if (i !== this.activeIndex) {
+                        const img = slide.querySelector('img');
+                        if (img) img.style.transform = 'scale(1.08)';
+                    }
+                });
+            }
         }
     });
 
