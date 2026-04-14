@@ -33,6 +33,33 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    // Services card slider
+    if (document.querySelector('.services-swiper')) {
+        new Swiper('.services-swiper', {
+            slidesPerView: 'auto',
+            spaceBetween: 24,
+            loop: true,
+            grabCursor: true,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            },
+            pagination: {
+                el: '.services-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.services-next',
+                prevEl: '.services-prev',
+            },
+            breakpoints: {
+                768: { slidesPerView: 'auto', spaceBetween: 28 },
+                1200: { slidesPerView: 'auto', spaceBetween: 32 },
+            }
+        });
+    }
+
     // Mobile Navigation Toggle
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
