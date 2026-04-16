@@ -890,8 +890,8 @@ html {
 
 .tech-image img {
   width: 100%;
-  height: auto;
-  border-radius: 15px;
+  height: 600px;
+  object-fit: cover;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
@@ -1463,7 +1463,7 @@ html {
   }
 
   .hero-text p {
-    font-size: 1rem !important;
+    font-size: 20px !important;
   }
 }
 
@@ -1520,7 +1520,6 @@ html {
 .page-header-content p {
   color: #94a3b8;
   font-family: "Inter", sans-serif;
-  font-size: 1rem !important;
 }
 
 /* ===== Shared intro sections ===== */
@@ -1558,7 +1557,7 @@ html {
   max-width: 750px;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
-  font-size: 1.05rem !important;
+  font-size: 20px;
   line-height: 1.8;
 }
 
@@ -1570,7 +1569,6 @@ html {
 .overview-content p {
   color: #64748b;
   font-family: "Inter", sans-serif;
-  font-size: 1rem !important;
   line-height: 1.8;
   margin-bottom: 1rem;
 }
@@ -1590,7 +1588,6 @@ html {
 .service-content p {
   color: #64748b;
   font-family: "Inter", sans-serif;
-  font-size: 1rem !important;
   line-height: 1.8;
   margin-bottom: 1rem;
 }
@@ -1661,7 +1658,7 @@ html {
 }
 .area-content p {
   color: #64748b;
-  font-size: 0.95rem !important;
+  font-size: 20px;
   line-height: 1.7;
   margin-bottom: 1rem;
 }
@@ -1671,7 +1668,6 @@ html {
 }
 .area-content li {
   color: #64748b;
-  font-size: 0.9rem !important;
   padding: 0.3rem 0 0.3rem 1.2rem;
   position: relative;
 }
@@ -1727,7 +1723,6 @@ html {
 .story-content p {
   color: #64748b;
   font-family: "Inter", sans-serif;
-  font-size: 1rem !important;
   line-height: 1.8;
   margin-bottom: 1rem;
 }
@@ -1772,7 +1767,6 @@ html {
 .mission-card p,
 .vision-card p {
   color: #64748b;
-  font-size: 1rem !important;
   line-height: 1.8;
 }
 .core-values {
@@ -1812,7 +1806,6 @@ html {
 }
 .value-card p {
   color: #64748b;
-  font-size: 0.95rem !important;
   line-height: 1.7;
 }
 .team-section {
@@ -1855,19 +1848,12 @@ html {
   font-size: 1.2rem;
   font-weight: 700;
   color: #0f172a;
-  font-family: "Inter", sans-serif;
-  margin-bottom: 0.3rem;
-}
-.position {
-  color: #10b981;
-  font-size: 0.9rem !important;
   font-weight: 600;
   font-family: "Inter", sans-serif;
   margin-bottom: 0.8rem;
 }
 .bio {
   color: #64748b;
-  font-size: 0.9rem !important;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
@@ -2027,14 +2013,14 @@ html {
   color: #065f46;
   padding: 0.2rem 0.8rem;
   border-radius: 20px;
-  font-size: 0.8rem !important;
+  font-size: 20px !important;
   font-weight: 600;
   font-family: "Inter", sans-serif;
 }
 .post-meta .date,
 .post-meta .read-time {
   color: #94a3b8;
-  font-size: 0.85rem !important;
+  font-size: 20px;
   font-family: "Inter", sans-serif;
 }
 .featured-text h2 {
@@ -2047,7 +2033,6 @@ html {
 }
 .featured-text p {
   color: #64748b;
-  font-size: 1rem !important;
   line-height: 1.8;
   margin-bottom: 1.5rem;
 }
@@ -2138,7 +2123,7 @@ html {
 }
 .post-content p {
   color: #64748b;
-  font-size: 0.95rem !important;
+  font-size: 1.1rem !important;
   line-height: 1.7;
   margin-bottom: 1rem;
 }
@@ -2241,7 +2226,6 @@ html {
 }
 .newsletter-content p {
   color: #94a3b8;
-  font-size: 1rem !important;
   margin-bottom: 2rem;
 }
 .newsletter-form {
@@ -2486,7 +2470,6 @@ html {
 }
 .contact-details p {
   color: #64748b;
-  font-size: 0.9rem !important;
   line-height: 1.6;
 }
 .contact-item {
@@ -2501,7 +2484,7 @@ html {
 }
 .contact-item p {
   color: #64748b;
-  font-size: 0.95rem !important;
+  font-size: 1.1rem !important;
   margin: 0;
 }
 .social-contact {
@@ -2696,7 +2679,7 @@ html {
 }
 .donation-card p {
   color: #64748b;
-  font-size: 0.95rem !important;
+  font-size: 1.1rem !important;
   line-height: 1.7;
   margin-bottom: 1rem;
 }
@@ -2708,7 +2691,6 @@ html {
 }
 .donation-card li {
   color: #64748b;
-  font-size: 0.9rem !important;
   padding: 0.3rem 0 0.3rem 1.5rem;
   position: relative;
 }
@@ -2845,7 +2827,6 @@ html {
 }
 .impact-item p {
   color: #64748b;
-  font-size: 0.9rem !important;
   margin: 0;
 }
 .donation-contact {
@@ -2863,7 +2844,6 @@ html {
 }
 .donation-contact p {
   color: #64748b;
-  font-size: 0.9rem !important;
   margin-bottom: 0.3rem;
 }
 .financial-transparency {
@@ -2885,7 +2865,6 @@ html {
 }
 .transparency-text p {
   color: #64748b;
-  font-size: 1rem !important;
   line-height: 1.8;
   margin-bottom: 1rem;
 }
@@ -2921,7 +2900,7 @@ html {
 }
 .chart-segment span:last-child {
   color: #64748b;
-  font-size: 0.9rem !important;
+
   font-family: "Inter", sans-serif;
 }
 .donor-benefits {
@@ -2959,7 +2938,7 @@ html {
 }
 .benefit-item p {
   color: #64748b;
-  font-size: 0.85rem !important;
+  font-size: 1.1rem !important;
   line-height: 1.6;
 }
 .other-ways {
@@ -2982,7 +2961,6 @@ html {
 }
 .card-section p {
   color: #64748b;
-  font-size: 0.9rem !important;
   line-height: 1.7;
 }
 .payment-options {
@@ -3168,7 +3146,6 @@ html {
 }
 .story-text {
   color: #64748b;
-  font-size: 0.9rem !important;
   line-height: 1.7;
   margin-bottom: 0.8rem;
   font-style: italic;
@@ -3294,7 +3271,6 @@ html {
 }
 .featured-card p {
   color: #64748b;
-  font-size: 0.9rem !important;
   line-height: 1.7;
   margin-bottom: 1rem;
 }
@@ -3436,7 +3412,6 @@ html {
 }
 .request-content p {
   color: #94a3b8;
-  font-size: 1rem !important;
   margin-bottom: 2rem;
   max-width: 600px;
   margin-left: auto;
@@ -3538,6 +3513,11 @@ html {
   height: auto;
   width: 360px;
 }
+@media (max-width: 768px) {
+  .services-swiper-wrap .swiper-wrapper {
+    grid-template-columns: 1fr !important;
+  }
+}
 
 .svc-card {
   background: white;
@@ -3568,6 +3548,8 @@ html {
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
+  padding: 0;
+  margin: 0;
 }
 
 .svc-card:hover .svc-img img {
@@ -3605,7 +3587,6 @@ html {
 
 .svc-body p {
   color: #64748b;
-  font-size: 0.95rem !important;
   line-height: 1.7;
   flex: 1;
   margin-bottom: 1.2rem;
