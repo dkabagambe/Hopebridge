@@ -3115,7 +3115,8 @@ html {
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.13);
 }
 .story-image {
-  height: 200px;
+  height: 500px;
+  width: auto;
   overflow: hidden;
 }
 .story-image img {
