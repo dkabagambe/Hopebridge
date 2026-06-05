@@ -515,7 +515,8 @@ html {
 
 .hero-slide img {
   position: absolute;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -612,8 +613,12 @@ html {
   justify-content: center;
 }
 
-.hero-prev { left: 20px; }
-.hero-next { right: 20px; }
+.hero-prev {
+  left: 20px;
+}
+.hero-next {
+  right: 20px;
+}
 
 .hero-prev:hover,
 .hero-next:hover {
@@ -643,7 +648,7 @@ html {
 
 .hero-dot.active {
   background: #10b981;
-  width: 28px;
+  width: 18px;
   border-radius: 5px;
 }
 
