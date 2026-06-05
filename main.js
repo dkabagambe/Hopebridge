@@ -1,20 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    // ── Hero Slider ──────────────────────────────────────────────────
-    const heroEl = document.querySelector('#home .swiper');
-    if (heroEl && typeof Swiper !== 'undefined') {
-        new Swiper(heroEl, {
-            loop: true,
-            speed: 800,
-            autoplay: { delay: 5000, disableOnInteraction: false },
-            grabCursor: true,
-            pagination: { el: heroEl.querySelector('.swiper-pagination'), clickable: true },
-            navigation: {
-                nextEl: heroEl.querySelector('.swiper-button-next'),
-                prevEl: heroEl.querySelector('.swiper-button-prev'),
-            },
-        });
-    }
+    // ── Hero Slider initialized via inline script in index.html ──────
 
     // ── Services Slider ──────────────────────────────────────────────
     if (document.querySelector('.services-swiper') && typeof Swiper !== 'undefined') {

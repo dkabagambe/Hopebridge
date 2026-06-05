@@ -129,21 +129,15 @@
 
     <!-- Hero Slider -->
     <section id="home">
-      <div class="swiper swiper-container">
+      <div class="swiper" id="hero-swiper">
         <div class="swiper-wrapper">
           <!-- SLIDE 1 -->
           <div class="swiper-slide">
-            <img
-              src="img/WhatsApp Image 2026-04-29 at 12.34.17 PM.jpeg"
-              alt="Building Bridges of Hope"
-            />
+            <img src="img/WhatsApp Image 2026-04-29 at 12.34.17 PM.jpeg" alt="Building Bridges of Hope" />
             <div class="slide-overlay">
               <div class="slide-content">
                 <h1>Building Bridges of Hope</h1>
-                <p>
-                  Delivering innovative, sustainable, and impact-driven
-                  solutions across business, community, and development sectors
-                </p>
+                <p>Delivering innovative, sustainable, and impact-driven solutions across business, community, and development sectors</p>
                 <a href="#contact" class="btn-slider">Join Our Mission</a>
               </div>
             </div>
@@ -154,27 +148,18 @@
             <div class="slide-overlay">
               <div class="slide-content">
                 <h1>Business &amp; Management Consultancy</h1>
-                <p>
-                  Strategic planning, organizational development, and digital
-                  transformation for businesses across Uganda
-                </p>
+                <p>Strategic planning, organizational development, and digital transformation for businesses across Uganda</p>
                 <a href="services.html" class="btn-slider">Our Services</a>
               </div>
             </div>
           </div>
           <!-- SLIDE 3 -->
           <div class="swiper-slide">
-            <img
-              src="img/WhatsApp Image 2026-04-29 at 12.34.17 PM (2).jpeg"
-              alt="Community Development"
-            />
+            <img src="img/WhatsApp Image 2026-04-29 at 12.34.17 PM (2).jpeg" alt="Community Development" />
             <div class="slide-overlay">
               <div class="slide-content">
                 <h1>Community Development</h1>
-                <p>
-                  Education, skills development, youth and women empowerment,
-                  and social impact programs
-                </p>
+                <p>Education, skills development, youth and women empowerment, and social impact programs</p>
                 <a href="services.html" class="btn-slider">Learn More</a>
               </div>
             </div>
@@ -185,10 +170,7 @@
             <div class="slide-overlay">
               <div class="slide-content">
                 <h1>Research &amp; Training</h1>
-                <p>
-                  Capacity building workshops, policy research, and monitoring
-                  &amp; evaluation services
-                </p>
+                <p>Capacity building workshops, policy research, and monitoring &amp; evaluation services</p>
                 <a href="services.html" class="btn-slider">Get Started</a>
               </div>
             </div>
@@ -199,18 +181,13 @@
             <div class="slide-overlay">
               <div class="slide-content">
                 <h1>Sustainable Development</h1>
-                <p>
-                  Long-term development initiatives promoting growth,
-                  empowerment, and lasting positive change
-                </p>
+                <p>Long-term development initiatives promoting growth, empowerment, and lasting positive change</p>
                 <a href="about.html" class="btn-slider">About Us</a>
               </div>
             </div>
           </div>
         </div>
-        <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
-        <!-- Add Navigation -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
       </div>
@@ -778,5 +755,20 @@
       referrerpolicy="no-referrer"
     />
     <script src="main.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        new Swiper('#hero-swiper', {
+          loop: true,
+          speed: 800,
+          autoplay: { delay: 5000, disableOnInteraction: false },
+          grabCursor: true,
+          pagination: { el: '#hero-swiper .swiper-pagination', clickable: true },
+          navigation: {
+            nextEl: '#hero-swiper .swiper-button-next',
+            prevEl: '#hero-swiper .swiper-button-prev',
+          },
+        });
+      });
+    </script>
   </body>
 </html>
