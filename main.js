@@ -5,10 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
     if (heroEl && typeof Swiper !== 'undefined') {
         new Swiper(heroEl, {
             loop: true,
-            speed: 1000,
+            speed: 800,
             autoplay: { delay: 5000, disableOnInteraction: false },
-            effect: 'fade',
-            fadeEffect: { crossFade: true },
+            grabCursor: true,
             pagination: { el: heroEl.querySelector('.swiper-pagination'), clickable: true },
             navigation: {
                 nextEl: heroEl.querySelector('.swiper-button-next'),

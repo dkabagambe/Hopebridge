@@ -507,6 +507,7 @@ html {
   height: 100vh;
   min-height: 500px;
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 #home .swiper-slide img {
